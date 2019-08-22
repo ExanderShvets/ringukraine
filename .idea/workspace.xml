@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e39c46a0-d560-4d01-9fd6-5d095b5aeb43" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="chrome_ring" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PjBUIkPNzoRfEp464T2Kqhv2pw" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Repositories/ringukraine/src/test/resources/test.xml">
+    <configuration name="CareersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="careers.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="careers.tests" />
+      <option name="MAIN_CLASS_NAME" value="careers.tests.CareersTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CareersTest.checkMenuSectionNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="careers.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="careers.tests" />
+      <option name="MAIN_CLASS_NAME" value="careers.tests.CareersTest" />
+      <option name="METHOD_NAME" value="checkMenuSectionNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contact.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="contact.tests" />
+      <option name="MAIN_CLASS_NAME" value="contact.tests.ContactTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactTest.sendNewMessageValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contact.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="contact.tests" />
+      <option name="MAIN_CLASS_NAME" value="contact.tests.ContactTest" />
+      <option name="METHOD_NAME" value="sendNewMessageValidationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Repositories/ringukraine/src/test/resources/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testring.xsl" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" value="" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/src/test/resources/testring.xsl" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Repositories/ringukraine/src/test/resources/test.xml" />
+        <item itemvalue="TestNG.CareersTest" />
+        <item itemvalue="TestNG.CareersTest.checkMenuSectionNames" />
+        <item itemvalue="TestNG.ContactTest" />
+        <item itemvalue="TestNG.ContactTest.sendNewMessageValidationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e39c46a0-d560-4d01-9fd6-5d095b5aeb43" name="Default Changelist" comment="" />
+      <created>1566377639756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566377639756</updated>
+    </task>
+    <servers />
+  </component>
+</project>
