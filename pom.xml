@@ -13,7 +13,7 @@
             <id>chrome_ring</id>
             <properties>
                 <browser.name>chrome_ring</browser.name>
-                <base.URL>https://ring-ukraine.com/</base.URL>
+                <base.URL>https://en-uk.ring.com/</base.URL>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
             </properties>
         </profile>
@@ -103,13 +103,11 @@
         </repository>
     </repositories>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.9.7</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -176,13 +174,12 @@
             <version>2.8.2</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
@@ -190,13 +187,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--DEPENDENCY FOR WORKING SEND POST METHODS-->
-        <!--<dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.2</version>
-            <scope>provided</scope>
-        </dependency>-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>

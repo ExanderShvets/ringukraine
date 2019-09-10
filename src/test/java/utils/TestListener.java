@@ -121,8 +121,8 @@ public class TestListener extends TestListenerAdapter {
         TEST_NAME = "[" + tr.getName() + "]";
         OS = getOS();
         PC_NAME = getPcName();
-        TEST_LOCALE = (BASE_URL.equals("https://ring-ukraine.com"))
-                ? "RING-UKRAINE" : "[" + getLocale() + "]";
+        TEST_LOCALE = (BASE_URL.equals("https://en-uk.ring.com/"))
+                ? "en-uk.ring" : "[" + getLocale() + "]";
 
         /*PRINT TEST HEADER*/
         LogForTest.header("Date: " + new SimpleDateFormat("dd-MM-yyyy HH:mm:ss").format(new Date()));

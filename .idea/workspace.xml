@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e39c46a0-d560-4d01-9fd6-5d095b5aeb43" name="Default Changelist" comment="" />
+    <list default="true" id="e39c46a0-d560-4d01-9fd6-5d095b5aeb43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ringukraine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/pages/BaseLandingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/tests/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/tests/BasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/careers/pages/CareersPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/careers/tests/CareersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/contact/pages/ContactPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/contact/tests/ContactTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home/tests/HomeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DriverListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DriverListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/reporting/FailedTestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/reporting/FailedTestEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/reporting/FailedTestReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/reporting/FailedTestReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/reporting/FinishedSuiteReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/reporting/FinishedSuiteReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/pages/BaseLandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/tests/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/tests/BasicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/careers/pages/CareersPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/careers/tests/CareersTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/careers/tests/CareersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/contact/pages/ContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/contact/tests/ContactTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/home/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/home/tests/HomeTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/home/tests/HomeTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/home/tests/HomeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/reporting/FailedTestEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/reporting/FailedTestEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/reporting/FailedTestReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/reporting/FailedTestReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/reporting/FinishedSuiteReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/reporting/FinishedSuiteReport.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +51,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XML Properties File" />
-        <option value="Class" />
         <option value="XSLT Stylesheet" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,7 +72,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1PjBUIkPNzoRfEp464T2Kqhv2pw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -52,17 +97,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Repositories/ringukraine/src/test/resources/test.xml">
-    <configuration name="CareersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DoorBellsTest">
+    <configuration name="DoorBellsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ringukraine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="careers.tests.*" />
+          <option name="PATTERN" value="products.doorbells.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="careers.tests" />
-      <option name="MAIN_CLASS_NAME" value="careers.tests.CareersTest" />
+      <option name="PACKAGE_NAME" value="products.doorbells.tests" />
+      <option name="MAIN_CLASS_NAME" value="products.doorbells.tests.DoorBellsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -70,17 +115,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CareersTest.checkMenuSectionNames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoorBellsTest.buyProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ringukraine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="careers.tests.*" />
+          <option name="PATTERN" value="products.doorbells.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="careers.tests" />
-      <option name="MAIN_CLASS_NAME" value="careers.tests.CareersTest" />
-      <option name="METHOD_NAME" value="checkMenuSectionNames" />
+      <option name="PACKAGE_NAME" value="products.doorbells.tests" />
+      <option name="MAIN_CLASS_NAME" value="products.doorbells.tests.DoorBellsTest" />
+      <option name="METHOD_NAME" value="buyProductTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,34 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoorBellsTest.checkGetBaseUrlAndCloseCookie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ringukraine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contact.tests.*" />
+          <option name="PATTERN" value="products.doorbells.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="contact.tests" />
-      <option name="MAIN_CLASS_NAME" value="contact.tests.ContactTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactTest.sendNewMessageValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ringukraine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="contact.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="contact.tests" />
-      <option name="MAIN_CLASS_NAME" value="contact.tests.ContactTest" />
-      <option name="METHOD_NAME" value="sendNewMessageValidationTest" />
+      <option name="PACKAGE_NAME" value="products.doorbells.tests" />
+      <option name="MAIN_CLASS_NAME" value="products.doorbells.tests.DoorBellsTest" />
+      <option name="METHOD_NAME" value="checkGetBaseUrlAndCloseCookie" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,10 +151,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Repositories/ringukraine/src/test/resources/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DoorBellsTest.checkPlanPageBuyNowButtonUrl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ringukraine" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="products.doorbells.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="products.doorbells.tests" />
+      <option name="MAIN_CLASS_NAME" value="products.doorbells.tests.DoorBellsTest" />
+      <option name="METHOD_NAME" value="checkPlanPageBuyNowButtonUrl" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorBellsTest.checkProductNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ringukraine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="products.doorbells.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="products.doorbells.tests" />
+      <option name="MAIN_CLASS_NAME" value="products.doorbells.tests.DoorBellsTest" />
+      <option name="METHOD_NAME" value="checkProductNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Repositories/ringukraine/src/test/resources/test.xml" />
-        <item itemvalue="TestNG.CareersTest" />
-        <item itemvalue="TestNG.CareersTest.checkMenuSectionNames" />
-        <item itemvalue="TestNG.ContactTest" />
-        <item itemvalue="TestNG.ContactTest.sendNewMessageValidationTest" />
+        <item itemvalue="TestNG.DoorBellsTest" />
+        <item itemvalue="TestNG.DoorBellsTest.checkProductNames" />
+        <item itemvalue="TestNG.DoorBellsTest.checkGetBaseUrlAndCloseCookie" />
+        <item itemvalue="TestNG.DoorBellsTest.buyProductTest" />
+        <item itemvalue="TestNG.DoorBellsTest.checkPlanPageBuyNowButtonUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -174,5 +228,18 @@
       <updated>1566377639756</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

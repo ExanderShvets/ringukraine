@@ -55,8 +55,8 @@ public class DriverListener implements WebDriverEventListener {
     private Class getPageObjectRunningClass() {
         Class pageClass = null;
         Throwable t = new Throwable();
-        StackTraceElement trace[] = t.getStackTrace();
-        String list[];
+        StackTraceElement[] trace = t.getStackTrace();
+        String[] list;
         if (System.getProperty("os.name").equals("Linux")) {
             list = new File("src/test/java").list();
         } else {

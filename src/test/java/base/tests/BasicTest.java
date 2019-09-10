@@ -1,5 +1,6 @@
 package base.tests;
 
+import base.pages.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -21,8 +22,8 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.Listeners;
 import utils.logs.LogForTest;
 import utils.reporting.FinishedSuiteReport;
-import utils.reporting.PostSender;
 import utils.PropertyLoader;
+import utils.verify.Verify;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -32,7 +33,6 @@ import java.util.logging.Level;
 
 import static utils.DriverListener.animationImage;
 import static utils.TestListener.*;
-import static utils.TestListener.TEST_CLASS;
 
 
 @Listeners({TestListener.class, utils.verify.TestMethodListener.class})
@@ -45,7 +45,7 @@ public abstract class BasicTest {
     public static EventFiringWebDriver driver;
     public final static String SCREEN_FOLDER;
     public final static String TMP_FOLDER;
-    protected final static String DRIVER_FOLDER;
+    private final static String DRIVER_FOLDER;
     private static final Date START_DATE = new Date();
     public static String BASE_URL = PropertyLoader.loadProperty("base.URL");
 
@@ -68,8 +68,8 @@ public abstract class BasicTest {
     }
 
     public static String getLocale() {
-        if (BASE_URL.equals("https://ring-ukraine.com")) {
-            return "https://ring-ukraine.com";
+        if (BASE_URL.equals("https://en-uk.ring.com/")) {
+            return "https://en-uk.ring.com/";
         }
         String[] s = BASE_URL.split(".com");
         return s[s.length - 1].replaceAll("/", "").toUpperCase();
@@ -90,11 +90,11 @@ public abstract class BasicTest {
         System.setProperty("webdriver.chrome.driver", DRIVER_FOLDER); //Chrome driver windows
 
         LogForTest.LOGGER.info("SERVICE MESSAGE: Set driver options");
-        String userAgent = "Mozilla/5.0 (Windows NT 6.3; WOW64; Dreamscape/1.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36";
+        String userAgent = "Mozilla/5.0 (Windows NT 6.3; WOW64; Test/1.0;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36";
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--user-agent=" + userAgent);
-        co.addArguments("--window-size=1920,1080");
-        co.addArguments("--headless");
+        //co.addArguments("--window-size=1920,1080");
+        //co.addArguments("--headless");
         co.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         co.addArguments("--no-sandbox"); // Bypass OS security model
         co.setExperimentalOption("w3c", false);
@@ -189,5 +189,21 @@ public abstract class BasicTest {
         } catch (TimeoutException e) {
             System.out.println("");
         }
+    }
+
+    public void comparePrices(double price1, double price2, String message) {
+        double differencePrice = Math.abs(price1 - price2);
+        Verify.verifyFalse(differencePrice > 1, message + " The difference is: " +
+                String.format("%.2f", differencePrice) + "GBP");
+    }
+
+    public void comparePrices(BasePage page1, BasePage page2) {
+        double price1 = page1.getTotalPrice();
+        double price2 = page2.getTotalPrice();
+        double differencePrice = Math.abs(price1 - price2);
+
+        Verify.verifyFalse(differencePrice > 1.0, "Total price is not equals: on " + page1.getPageDescription() + " it was: " + price1 + "GBP" +
+                ", but in " + page2.getPageDescription() + " it's: " + price2 + "\nThe difference is: " +
+                String.format("%.2f", differencePrice) + "GBP");
     }
 }

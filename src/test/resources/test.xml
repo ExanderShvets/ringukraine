@@ -3,19 +3,7 @@
 <suite name="Ring-Ukraine" verbose="1">
     <test name="Home page test">
         <classes>
-            <class name="home.tests.HomeTest"/>
-        </classes>
-    </test>
-
-    <test name="Career page test">
-        <classes>
-            <class name="careers.tests.CareersTest"/>
-        </classes>
-    </test>
-
-    <test name="Contact page test">
-        <classes>
-            <class name="contact.tests.ContactTest"/>
+            <class name="products.doorbells.tests.DoorBellsTest"/>
         </classes>
     </test>
 </suite>
